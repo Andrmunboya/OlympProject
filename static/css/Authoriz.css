@@ -1,24 +1,33 @@
-body {
-    background-color: #ffffff;
+body{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 /* HEADER */
-
-header {
-    position: sticky;
-    top: 0;
-    padding: 20px;
-    z-index: 1000;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 5px 25px rgba(0,0,0,0.15);
-        box-shadow: 0 5px 25px rgba(0,0,0,0.15);
-}
-
 .header__img {
     height: 48px;
     width: 48px;
 }
+header{
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    z-index: 1000;
+    -webkit-box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+        box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+}
+/* FOOTER */
+footer {
+    padding: 20px;
 
+/* FOOTER */
+}
  .page {
      overflow: hidden;
      display: flex;

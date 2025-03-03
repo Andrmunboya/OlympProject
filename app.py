@@ -11,6 +11,10 @@ def olimpiadi():
 def olimp1():
     return render_template('olimp1.html')
 
+@app.route("/AuthorizationOlimp")
+def AuthorizonOlimp():
+    return render_template('AuthorizonOlimp.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
